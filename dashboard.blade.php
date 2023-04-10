@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
     <link rel="icon" href="favicon.ico">
     <title>{{$title}}</title>
-    <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.cs   s">
+    <link rel="stylesheet" href="//unpkg.com/element-plus/dist/index.css">
     <link href="/theme/Bob-Theme-Argon/css/app.0c02214a.css" rel="preload" as="style">
     <link href="/theme/Bob-Theme-Argon/css/chunk-vendors.dba84911.css" rel="preload" as="style">
     <link href="/theme/Bob-Theme-Argon/js/app.2a99f232.js" rel="preload" as="script">
