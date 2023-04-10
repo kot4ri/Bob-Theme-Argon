@@ -454,7 +454,7 @@
 							return [e("sidebar-item", {
 								attrs: {
 									link: {
-										name: "仪表盘",
+										name: "首页",
 										icon: "ni ni-tv-2 text-primary",
 										path: "/dashboard"
 									}
@@ -462,7 +462,7 @@
 							}), e("sidebar-item", {
 								attrs: {
 									link: {
-										name: "使用文档",
+										name: "教程文档",
 										icon: "ni ni ni-air-baloon text-primary",
 										path: "/knowledge"
 									}
@@ -1094,7 +1094,7 @@
 					staticClass: "col-lg-6"
 				}, [e("div", {
 					staticClass: "copyright text-center text-lg-left text-muted"
-				}, [t._v(" © " + t._s(t.year) + " "), e("a", {
+				}, [t._v(" © " + t._s(t.year) + "  "), e("a", {
 					staticClass: "font-weight-bold ml-1",
 					attrs: {
 						href: "https://github.com/BobCoderS9/Bob-Theme-Argon",
@@ -1247,7 +1247,7 @@
 					staticClass: "col-xl-6"
 				}, [e("div", {
 					staticClass: "copyright text-center text-xl-left text-muted"
-				}, [t._v(" © " + t._s(t.year) + " "), e("a", {
+				}, [t._v(" © " + t._s(t.year) + "  "), e("a", {
 					staticClass: "font-weight-bold ml-1",
 					attrs: {
 						href: "https://github.com/BobCoderS9/Bob-Theme-Argon",
@@ -1465,7 +1465,7 @@
 							) +
 						" ")]), t.sub
 					.expired_at ? e("p",
-						[t._v(" 于 " + t
+						[t._v(" 将在 " + t
 							._s(t
 								._f(
 									"formatDate")
@@ -1486,10 +1486,10 @@
 								.sub
 								.reset_day
 								) +
-							" 日后重置流量 "
+							" 天后重置流量。 "
 							)]) : e("p",
 						[t._v(
-							"该订阅长期有效")]
+							"该订阅长期有效。")]
 						), e(
 						"base-progress", {
 							attrs: {
@@ -1878,9 +1878,8 @@
 								name: "clipboard",
 								rawName: "v-clipboard:copy",
 								value: t.sub
-									.subscribe_url +
-									"&flag=v2ray",
-								expression: "sub.subscribe_url + '&flag=v2ray'",
+									.subscribe_url,
+								expression: "sub.subscribe_url",
 								arg: "copy"
 							}, {
 								name: "clipboard",
@@ -1894,7 +1893,7 @@
 							attrs: {
 								type: "danger"
 							}
-						}, [t._v(" 复制 V2Ray 订阅")]) : t
+						}, [t._v(" 复制通用订阅链接")]) : t
 					._e(), t.show_client.Surfboard ? e(
 						"base-dropdown", {
 							staticClass: "sub-button",
@@ -2373,7 +2372,7 @@
 					staticStyle: {
 						color: "#909399"
 					}
-				}, [t._v("用户登陆")])]), e("div", {
+				}, [t._v("用户登录")])]), e("div", {
 					staticClass: "btn-wrapper text-center"
 				})])
 			}, function() {
@@ -3564,7 +3563,7 @@
 							) +
 						" ")]), t.sub
 					.expired_at ? e("p",
-						[t._v(" 于 " + t
+						[t._v(" 将在 " + t
 							._s(t
 								._f(
 									"formatDate")
@@ -3585,10 +3584,10 @@
 								.sub
 								.reset_day
 								) +
-							" 日后重置流量 "
+							" 天后重置流量。 "
 							)]) : e("p",
 						[t._v(
-							"该订阅长期有效")]
+							"该订阅长期有效。")]
 						), e(
 						"base-progress", {
 							attrs: {
@@ -4045,7 +4044,7 @@
 							let e = [],
 								a = ["香港", "美国", "日本", "中国", "俄罗斯", "韩国", "英国", "新加坡", "马来西亚", "台湾",
 									"加拿大", "菲律宾", "德国", "印度", "南非", "卢森堡", "巴西", "意大利", "法国", "泰国",
-									"爱尔兰"
+									"爱尔兰","土耳其","朝鲜"
 								];
 							t.data.forEach((function(t) {
 								for (let e = 0; e < a.length; e++) {
@@ -4511,7 +4510,7 @@
 					staticClass: "col-lg-6"
 				}, [e("a-input-search", {
 						attrs: {
-							placeholder: "输入优惠卷",
+							placeholder: "输入优惠券",
 							"enter-button": "验证",
 							size: "large",
 							allowClear: !0
@@ -7450,7 +7449,7 @@
 					}
 				}, {
 					path: "/knowledge",
-					name: "使用文档",
+					name: "教程文档",
 					components: {
 						default: Ae
 					}
